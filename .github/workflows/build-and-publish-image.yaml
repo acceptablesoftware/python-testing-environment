@@ -6,6 +6,7 @@ on:
     - cron: '* * * * 0'
 
 jobs:
+
   build-and-publish-image:
     runs-on: ubuntu-20.04
     permissions:
